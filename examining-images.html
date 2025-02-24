@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspecting Web Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            color: #333;
+        }
+        p {
+            border:2px solid #333;
+            border-radius: 8px;
+            border-spacing: 10px;
+            font-family: Times;
+            margin-top: 20px;
+            text-align: justify;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 250px;
+            height: auto;
+            border: 5px solid #555;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Sources</h1>
+
+    <div class="image-container">
+        <img src="https://img.freepik.com/fotos-gratis/elefante-no-parque-nacional-amboseli-quenia-africa_181624-19054.jpg?t=st=1740160359~exp=1740163959~hmac=0dd8d0cdd1c63b5efe33989955a4d385fc23a25d926e05f67f03d4dd929ba993&w=996" alt="Elefante">
+        <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli House">
+        <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Woman in Mountains">
+        <img src="https://www.w3schools.com/html/img_chania.jpg" alt="Chania City">
+    </div>
+    <p>Para encontrar os URLs das imagens utilizadas, eu procurei imagens públicas disponíveis na internet. Algumas delas vieram de bancos de imagens gratuitos, como o Freepik, enquanto outras foram obtidas do W3Schools, que fornece imagens de exemplo para testes em HTML. Para obter o URL de uma imagem, basta clicar com o botão direito sobre a imagem desejada em um site e selecionar "Copiar endereço da imagem". Esse link pode ser utilizado diretamente no atributo src da tag <img>.
+
+        Na tag <img>, utilizei os seguintes atributos:
+        
+        src: Define o caminho da imagem (seja local ou via URL).
+        alt: Texto alternativo exibido caso a imagem não carregue, útil para acessibilidade.
+        width e height: Ajustam o tamanho da imagem (neste caso, width="250px" e height="auto" para manter a proporção).
+        Além disso, usei CSS para adicionar bordas, sombras e um layout flexível, garantindo uma boa apresentação das imagens na página.</p>
+
+</body>
+</html>

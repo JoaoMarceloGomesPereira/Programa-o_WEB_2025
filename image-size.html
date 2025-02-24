@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Setting Image Size</title>
+        <style>
+            h1 {
+                color: #333;
+                text-align: center;
+            }
+            .image-container {
+                display: flex;
+                border: 2px solid #333;
+                border-radius: 8px;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+            .div-container {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                margin-top: 20px;
+            }
+            .description {
+                text-align: justify;
+                font-size: 16px;
+                color: #555;
+                margin-top: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Size Adjustments</h1>
+        <div class="div-container">
+            <img src="https://img.freepik.com/fotos-gratis/um-carro-esporte-com-autotuning-branco-preto-dirigindo-para-a-floresta_114579-4076.jpg?t=st=1740162184~exp=1740165784~hmac=adc03443e6dfc6a1e846c237ec0fd08f394948695af4cf2e96d03893a66e5eed&w=996" 
+                 alt="Carro" class="image-container" width="300" height="200"/>
+            <img src="https://img.freepik.com/fotos-gratis/um-motociclista-que-anda-de-bicicleta-na-estrada_114579-5069.jpg?t=st=1740161480~exp=1740165080~hmac=154336d43bc0e896421bf47f9148b39128d2694d3d97c8e3a81dead60db9a0e4&w=996" 
+                 alt="Moto" class="image-container" width="400" height="250"/>
+        </div>
+
+        <p class="description">
+            A imagem do carro possui <strong>300px</strong> de largura e <strong>200px</strong> de altura, 
+            enquanto a imagem da moto possui <strong>400px</strong> de largura e <strong>250px</strong> de altura. 
+            Esses valores foram definidos manualmente utilizando os atributos <code>width</code> e <code>height</code> dentro da tag <code>&lt;img&gt;</code>.
+        </p>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Figures and Captions</title>
+        <style>
+            body{
+                background-color: rgb(127, 179, 162);
+            }
+            h1{
+                color: #333;
+                text-align: center;
+            }
+            figure{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                margin-top: 20px;
+            }
+            figcaption{
+                font-family: Arial, sans-serif;
+                font-size: 1.2em;
+                color: #333;
+            }
+            .image-container{
+                display: flex;
+                border: 2px solid #333;
+                border-radius: 8px;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                margin-top: 20px;
+                height: 200px;
+                width: auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Artworks</h1>
+        <figure>
+            <img src="https://img.freepik.com/fotos-gratis/carro-preto-em-movimento-na-estrada_1268-21988.jpg?t=st=1740161189~exp=1740164789~hmac=001aa339a9a528f7964f76fbf51c891d44af1a53d0a67eea5869d1c98a22b9af&w=996" alt="Carro" class="image-container"/>
+            <figcaption>Carro preto em movimento</figcaption>
+            <img src="https://img.freepik.com/fotos-gratis/um-motociclista-que-anda-de-bicicleta-na-estrada_114579-5069.jpg?t=st=1740161480~exp=1740165080~hmac=154336d43bc0e896421bf47f9148b39128d2694d3d97c8e3a81dead60db9a0e4&w=996" alt="Moto" class="image-container"/>
+            <figcaption>Moto vermelha em alta velocidade</figcaption>
+        </figure>
+    </body>
+</html>
